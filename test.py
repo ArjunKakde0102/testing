@@ -1,4 +1,4 @@
-from flask import Flask,render_template ,  redirect, request, flash,url_for
+from flask import Flask,render_template ,  redirect, request
 app = Flask(__name__)
 @app.route('/')
 def index():
